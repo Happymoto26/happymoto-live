@@ -1,0 +1,19 @@
+{
+  "name": "happymoto-live",
+  "main": "worker.js",
+  "compatibility_date": "2026-09-13",
+  "durable_objects": {
+    "bindings": [
+      {
+        "name": "ROOMS",
+        "class_name": "TourRoom"
+      }
+    ]
+  },
+  "exports": {
+    "TourRoom": {
+      "type": "durable-object",
+      "storage": "sqlite"
+    }
+  }
+}
