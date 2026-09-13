@@ -11,6 +11,10 @@
     ]
   },
   "exports": {
+    "Chat": {
+      "type": "durable-object",
+      "state": "deleted"
+    },
     "TourRoom": {
       "type": "durable-object",
       "storage": "sqlite"
